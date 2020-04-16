@@ -1,0 +1,100 @@
+* {
+  font-family: Roboto;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  padding: 0 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 19px;
+  text-decoration: none;
+  color: #fff;
+  transition: 0.8s ease;
+}
+
+a:hover {
+  color: #7779fcdc;
+}
+
+#main-frame {
+  color: rgb(17, 16, 16);
+  position: absolute;
+  min-width: 960px;
+  max-width: 1366px;
+  min-height: 720px;
+  max-height: 1240px;
+  margin: 50px auto;
+  background: rgba(209, 209, 209, 0.904);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
+  /* border-radius: 12px; */
+}
+
+#menu {
+  display: flex;
+  position: absolute;
+  width: 77px;
+  height: 27px;
+  left: 65%;
+  top: 10px;
+}
+
+#content {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#more-news-container {
+  background-color: rgba(250, 249, 249, 0.9);
+  width: 360px;
+  height: 460px;
+  padding: 0 20px;
+  margin-top: 35px;
+  overflow: hidden;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: left;
+}
+
+#more-news-container:hover {
+  overflow: auto;
+}
+
+#more-news-container a {
+  color: rgba(48, 45, 45, 0.952);
+  transition: 0.8s ease;
+}
+
+#more-news-container a:hover {
+  color: rgba(12, 11, 11, 0.952);
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #9697c7dc;
+  font-size: 14px;
+  position: relative;
+  top: 120px;
+}
+
+#footer a {
+  color: #aaabe2e3;
+  transition: 0.8s ease;
+}
+
+#footer a:hover {
+  color: #7779fcdc;
+}
