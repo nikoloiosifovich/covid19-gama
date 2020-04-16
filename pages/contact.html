@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>COVID19 - Contact</title>
 
-    <link rel="stylesheet" href="./src/styles-home.css" />
+    <link rel="stylesheet" href="../src/styles-contact.css" />
   </head>
   <body>
     <div id="main-frame">
@@ -15,7 +15,35 @@
         <a href="#">Contact</a>
         <a href="news.html">+News</a>
       </div>
-      <div id="content"></div>
+      <div id="content">
+        <div id="form-frame">
+          <span>
+            Entre em contato...
+          </span>
+          <form action="./contact.html" method="post">
+            <input
+              type="text"
+              name="name"
+              placeholder="Insira seu nome..."
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Isira seu e-mail..."
+              required
+            />
+            <input type="text" name="title" placeholder="Assunto..." required />
+            <textarea
+              name="subject"
+              cols="30"
+              rows="10"
+              placeholder="Deixe um comentário..."
+            ></textarea>
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+      </div>
       <div id="footer">
         by
         <a href="https://github.com/nikoloiosifovich">nikölo</a>
