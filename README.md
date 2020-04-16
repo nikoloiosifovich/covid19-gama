@@ -15,7 +15,7 @@
 </p>
 <br>
 
-Chegou a hora de vocês usarem tudo que aprenderam de HTML, CSS e GIT para construir uma <strong>landing page com as 6 melhores notícias sobre o COVID-19 na sua opinião</strong>. Para isso, vocês devem encontrar pelo menos dois tipos de notícia entre texto, vídeo e áudio.</p>
+Chegou a hora de vocês usarem tudo que aprenderam de HTML, CSS e GIT para construir uma <a href='https://covid19-gamanews.netlify.app/'><strong>landing page com as 6 melhores notícias sobre o COVID-19 na sua opinião</strong></a>. Para isso, vocês devem encontrar pelo menos dois tipos de notícia entre texto, vídeo e áudio.</p>
 
 A página deve obrigatoriamente ter _arquivos separados_ de HTML e CSS, ser hard coded (isso é, código proprietário seu, sem usar Bootstrap e ferramentas drag-and-drop como Wix) e estar em um repositório no GitHub.
 
